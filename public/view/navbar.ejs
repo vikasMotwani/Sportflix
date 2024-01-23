@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/home">Sportflix</a>
+        <div class="search">
+            <form class="d-flex " action="http://localhost:3000/home" method="get" role="search">
+            <input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div><button id="cart"><a href="http://localhost:3000/cart"><i class="bi bi-bag"></i></a></button></div>
+        <div class="icon"></div>
+        <div class="dropdown show icon">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="bi bi-briefcase"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="http://localhost:3000/profile">Profile</a>
+              <span id="logout" class="dropdown-item">Logout</span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </nav>

@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "6576449a9576423f347c2b01"
+  },
+  "name": null,
+  "username": "sam",
+  "email": "samyk.rokade@gmail.com",
+  "phone": "9452490477",
+  "address": "7575 Frankford Rd",
+  "password": "$2b$10$T6ZG8aGeiXaJNZKdJMF3vuvuwlPL0VlJYEK5.kWGqkrQgTB.O1ifK",
+  "dob": "2023-12-28",
+  "subscriptions": [
+    "channel1",
+    "channel2",
+    "channel1"
+  ],
+  "cart": [],
+  "saved_payments": [],
+  "order_history": [],
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "6576673bca1c55a0f8fdb5b5"
+  },
+  "name": null,
+  "username": "samyak",
+  "email": "samyak.rokade.o@gmail.com",
+  "phone": "9452490477",
+  "address": "7575 Frankford Rd",
+  "password": "$2b$10$ttUu8pV/b8WG.aOrNxWYbO90D6k3mnIZT3kVTjRpqSRhmWCK17mtu",
+  "dob": "2023-12-06",
+  "subscriptions": [
+    "channel1",
+    "channel2",
+    "channel6",
+    "channel9"
+  ],
+  "cart": [],
+  "saved_payments": [],
+  "order_history": []
+},
+{
+  "_id": {
+    "$oid": "6576743d1a685883c4db8741"
+  },
+  "name": null,
+  "username": "vikas",
+  "email": "vikas@gmail.com",
+  "phone": "65424234",
+  "address": "7575 ",
+  "password": "$2b$10$Uks9sfzIQr7dPX59NwzbSOkdvq0W3EOuTbFeHHIE95zACi.nJZqa6",
+  "dob": "2023-12-05",
+  "subscriptions": [],
+  "cart": [],
+  "saved_payments": [],
+  "order_history": []
+}]

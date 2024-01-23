@@ -1,0 +1,12 @@
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src=<%= item.links.thumbnail  %> alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><a href="http://localhost:3000/channel/<%=item._id %>"><%= item.name %></a></h5>
+      <p class="card-text"><%= item.description %></p>
+      <% if (status === "subscribed"){%>
+        <div> <%= item.category %></div>
+      <%} else{%>
+      <button class="btn btn-primary addtocart" value="<%= item.name %>">Add to cart</button>
+      <% } %>
+    </div>
+  </div>

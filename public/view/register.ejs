@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("head")  %>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Register</h1>
+    <form id="registrationForm" action="http://localhost:3000/register" method="POST" autocomplete="off" onsubmit="return validateForm(e)">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label f>Username</label>
+            <input type="text" class="form-control" name="username" id="uname" placeholder="Username">
+            <span id="unameError" style="color: red;"></span><br>
+          </div>
+          <div class="form-group col-md-6">
+            <label>Password</label>
+            <input type="password" class="form-control"  name="password" id="pw" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-row">
+            <label >Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label >Address</label>
+          <input type="text" class="form-control"  name="address" id="address" placeholder="8345 Coit Rd">
+          <span id="addressError" style="color: red;"></span><br>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label >Phone</label>
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="123-456-7899">
+            <span id="phoneError" style="color: red;"></span><br>
+          </div>
+          <div class="form-group col-md-6">
+            <label >DOB</label>
+            <input type="date" class="form-control" name="dob" id="dob" placeholder="1/1/2000">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <!-- <form id="registrationForm" action="/register" method="POST" autocomplete="off">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Name" name="name" id="name" required><br>
+        <span id="nameError" style="color: red;"></span><br>
+        
+        <label for="uname">Username: </label>
+        <input type="text" placeholder="Username" name="username" id="uname" required><br>
+        <span id="unameError" style="color: red;"></span><br>
+    
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Email" name="email" id="email" required><br>
+        <span id="emailError" style="color: red;"></span><br>
+    
+        <label for="phone">Phone: </label>
+        <input type="tel" placeholder="Phone" name="phone" id="phone" required><br>
+        <span id="phoneError" style="color: red;"></span><br>
+    
+        <label for="address">Address: </label>
+        <input type="text" placeholder="Address" name="address" id="address" required><br>
+        <span id="addressError" style="color: red;"></span><br>
+
+        <label for="pw">Password: </label>
+        <input type="password" placeholder="password" name="password" id="pw" required><br>
+
+        <label for="dob">Date of Birth: </label>
+        <input type="text" placeholder="DoB" name="dob" id="dob" required><br>
+        <span id="unameError" style="color: red;"></span><br>
+    
+        <button type="submit">Register</button><br>
+        <a href="http://localhost:3001/login">Login</a> -->
+    </form>
+    </div>
+    <%- include("footer") %>
+</body>
+</html>

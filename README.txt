@@ -1,0 +1,13 @@
+Steps:
+ -Setup node and dependencies from package.json using 'npm i'
+ -Start the app using node app.js
+ -Go to http://localhost:3000
+ -user login credentials: username: samyak pw: 12345
+ -admin login credentials: username: sam pw: 1234
+ -After login as user you are redirected to home page
+ -Search using team names or description words
+ -Go to cart using cart item from Navbar. Remove from cart or checkout from cart page
+ -Access user profile or logout from the dropdown in navbar
+ -Click on any image in home page to access channel page
+ -Logout and login as admin to access admin page
+ -Register new user by clicking on register from login page

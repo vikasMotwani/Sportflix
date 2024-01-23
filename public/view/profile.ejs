@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('head') %>
+    </head>
+    <body>
+        <%- include("navbar") %>
+        <h1> Profile Page</h1>
+        <div class="container">
+            <form action="http://localhost:3000/edit" method="POST">
+            <div class="form-row">
+                
+                  <label f>Username</label>
+                  <input type="text" class="form-control" name="username" id="uname" placeholder="Username" value="<%= user.username %>">
+                  <span id="unameError" style="color: red;"></span><br>
+                
+              </div>
+              <div class="form-row">
+                  <label >Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" value="<%= user.email %>">
+              </div>
+              <div class="form-row">
+                <label >Address</label>
+                <input type="text" class="form-control"  name="address" id="address" placeholder="8345 Coit Rd" value="<%= user.address %>">
+                <span id="addressError" style="color: red;"></span><br>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label >Phone</label>
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="123-456-7899" value="<%= user.phone %>">
+                  <span id="phoneError" style="color: red;"></span><br>
+                </div>
+                <div class="form-group col-md-6">
+                  <label >DOB</label>
+                  <input type="date" class="form-control" name="dob" id="dob" placeholder="1/1/2000" value="<%= user.dob %>">
+                </div>
+              </div>
+            
+                <button type="submit">Edit Profile</button>
+            </form>
+            
+            <button onclick="logout()">Logout</button>
+        </div>
+        <%- include("footer")  %>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+            function logout() {
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost:3000/logout",
+                data: {},
+                success: function (response) {
+                
+                    console.log('Logout successful');
+                    window.location.reload();
+                },
+                error: function (error) {
+                
+                    console.error('Logout error:', error);
+                }
+            });
+            clearInterval(inactivityInterval);
+        }
+        </script> -->
+
+    </body>
+</html>

@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993bd"
+  },
+  "name": "channel1",
+  "category": "football",
+  "description": "Relive West Ham United's second-half comeback victory against Spurs at Tottenham Hotspur Stadium in Matchweek 15 of the Premier League",
+  "price": {
+    "monthly": 5,
+    "annual": 50
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/rEw8rG__Vqg/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width='560' height='315' src='https://www.youtube.com/embed/rEw8rG__Vqg?si=zdae4XBYsYOTFx54' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+  },
+  "alt_text": "West Ham vs Manchester United"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993be"
+  },
+  "name": "channel2",
+  "category": "football",
+  "description": "Relive a top of the table clash between Aston Villa and Arsenal, where a valiant effort by Villa resulted in three well-earned points over the Gunners at Villa Park in Matchweek 16 of the Premier League",
+  "price": {
+    "monthly": 8,
+    "annual": 80
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/M7SKKkw-Scw/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/M7SKKkw-Scw?si=bIBZNGzK71XoGEPL\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Aston Villa vs Arsenal"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993bf"
+  },
+  "name": "channel3",
+  "category": "tennis",
+  "description": "Watch the extended highlights between Rafael Nadal and Novak Djokovic in the final of the Australian Open 2019. | Tennis",
+  "price": {
+    "monthly": 6,
+    "annual": 60
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/EnRV5BRXs28/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EnRV5BRXs28?si=_Pm9hiVm7KY9YuXF\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Rafael Nadal vs Novak Djokovic"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c0"
+  },
+  "name": "channel4",
+  "category": "basketball",
+  "description": "The Los Angeles Lakers defeat the Indiana Pacers, 123-109 to win the inaugural In Season Tournament NBA Cup",
+  "price": {
+    "monthly": 7,
+    "annual": 70
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/NJNSgOE0AvE/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NJNSgOE0AvE?si=WV0UWWeNaBgtozmI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Pacers vs Lakers"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c1"
+  },
+  "name": "channel5",
+  "category": "football",
+  "description": "The rematch everyone has been waiting for. Level on both points and goal differential, the top two teams in group H battle it out in Barcelona. | Barcelona vs Porto | UEFA Champions League",
+  "price": {
+    "monthly": 9,
+    "annual": 90
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/GXbfhfJ1PAY/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GXbfhfJ1PAY?si=y8WBnvXUrfJG2Z9I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Barcelona vs Porto"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c2"
+  },
+  "name": "channel6",
+  "category": "tennis",
+  "description": "Alcaraz and No. 1 Djokovic square off for the fifth time (tied 2-2) for a place in Nitto ATP Finals FINAL! | Tennis",
+  "price": {
+    "monthly": 5,
+    "annual": 50
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/h1XnvVzzVP8/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/h1XnvVzzVP8?si=UiW5RMCWfiquKTL2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Novak Djokovic vs Carlos Alcaraz"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c3"
+  },
+  "name": "channel7",
+  "category": "basketball",
+  "description": "The Golden State Warriors defeated the Portland Trail Blazers, 110-106. Stephen Curry led the Warriors with 31 points (5 3PT) and 5 rebounds | NBA",
+  "price": {
+    "monthly": 8,
+    "annual": 80
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/ZyAJ0sMh6yY/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZyAJ0sMh6yY?si=9_ZSfbZdI0U5DGOI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Trail Blazers vs Warriors"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c4"
+  },
+  "name": "channel8",
+  "category": "football",
+  "description": "Argentina and France faced off in the highly-anticipated final to the 2022 FIFA World Cup",
+  "price": {
+    "monthly": 6,
+    "annual": 60
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/Mxkg3qLIPC8/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Mxkg3qLIPC8?si=Pe7Fx_OxRhPQtA6-\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Argentina vs France"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c5"
+  },
+  "name": "channel9",
+  "category": "tennis",
+  "description": "Watch the extended highlights of Frances Tiafoe vs. Ben Shelton in the quarterfinals of the 2023 US Open.| Tennis",
+  "price": {
+    "monthly": 7,
+    "annual": 70
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/rOCtAC4f6Uw/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rOCtAC4f6Uw?si=h-PaTjklvy95dqwR\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Frances Tiafoe vs Ben Shelton"
+},
+{
+  "_id": {
+    "$oid": "6573c31eddd00ecb90e993c6"
+  },
+  "name": "channel10",
+  "category": "basketball",
+  "description": "The Sacramento Kings defeated the Phoenix Suns, 114-106. De’Aaron Fox scored 23 of game-high 34 points in the fourth quarter along with 7 assists and 4 rebounds | NBA",
+  "price": {
+    "monthly": 9,
+    "annual": 90
+  },
+  "links": {
+    "thumbnail": "https://img.youtube.com/vi/Iuy8SDI6Vrs/maxresdefault.jpg\n",
+    "bg_image": "",
+    "stream": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Iuy8SDI6Vrs?si=S4eP1JP64O5LVC-O\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  "alt_text": "Kings vs Suns"
+}]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("head") %>
+</head>
+<body>
+    <div class="cart">
+        <table class="dynamicTable">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Description</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <% let price = 0 %>
+            <% listOfItems.forEach(item=>{ %>
+                <tr id = <%= item.name %>>
+                    <td><input type="checkbox" value=<%= item.name %>></td>
+                    <td><%- item.description %></td>
+                    <td><%- item.name %></td>
+                    <td><%- item.category %></td>
+                    <td>$<%- item.price.monthly %></td>
+                    <td><img src=<%= item.links.thumbnail %>></td>
+                </tr>
+                <% price += item.price.monthly %>
+            <% }) %>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Total: $<%= price %></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="button-container">
+            <button class="remove-button" onclick="removeSelected()">Remove Selected</button>
+            <button class="checkout-button" onclick="checkout()">Checkout</button>
+            <button onclick='window.location.href="http://localhost:3000/home"'>Home</button>
+        </div>
+    </div>
+    <%- include("footer") %>
+</body>
+</html>
+    
+
+

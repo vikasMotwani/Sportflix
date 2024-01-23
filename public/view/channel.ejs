@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("head") %>
+</head>
+
+
+<body>
+    <div>
+        <%- include("navbar") %>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row video">
+                    <%- item.links.stream %>
+                </div>
+                <div class="row details">
+                    <div class="col-md-6">
+                        <p><b>Name:</b>
+                            <%= item.name %>
+                        </p>
+                        <p><b>Category:</b>
+                            <%= item.category %>
+                        </p>
+                        <p><b>Monthly Price:</b>
+                            <%= item.price.monthly %>
+                        </p>
+                        <p><b>Annual Price:</b>
+                            <%= item.price.annual %>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Description: </b>
+                            <%= item.description %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <% related.forEach(items=>{ %>
+                    <div class="row">
+                        <div> <%- include("card",{item:items,status:""})%> </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

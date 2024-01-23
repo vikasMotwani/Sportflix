@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include("head") %>
+    </head>
+    <body>
+        <%- include("navbar") %>
+        <h1> Admin Page</h1>
+        <!-- <p id = "user_data"></p> -->
+        <div>
+            <button onclick="logout()">Logout</button>
+        </div>
+        
+        <% if(details!=null) { %>
+            <table>
+            <tr>
+                
+                <th>Username </th>
+                <th>Email</th>
+                <th>Phone </th>
+                <th>Address </th>
+                <th>DOB</th>
+                <th>Subscriptions</th>
+            </tr>
+            <% details.forEach(function(item){ %>
+                <% if(item.role!='admin') { %>
+                <tr>
+                    
+                    <td><%= item.username %></td>
+                    <td><%= item.email%></td>
+                    <td><%= item.phone %></td>
+                    <td><%= item.address%></td>
+                    <td><%= item.dob%></td>
+                    <td>
+                        <% for (let s in item.subscriptions) { %>
+                            <% if (item.subscriptions.hasOwnProperty(s)) { %>
+                               <%= item.subscriptions[s].name %>
+                            <%}%>
+                         <%}%>
+                    </td>
+                    <td>
+                        <form action="/delete/<%= item._id %>" method="POST">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </td>
+                
+                </tr>
+                <% } %> 
+            <% }) %>
+            </table>
+            <% } %>       
+            <form action="/addItems" method="post">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="inputEmail4">Name</label>
+                    <input type="text" class="form-control" name="item-name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label>category</label>
+                    <input type="text" class="form-control" name="item-category" placeholder="Category">
+                  </div>
+                  <div class="form-group">
+                    <label>description</label>
+                    <input type="text" class="form-control" name="item-description" placeholder="description">
+                  </div>
+                  <div class="form-group">
+                    <label >monthly</label>
+                    <input type="number" class="form-control" name="item-monthly" placeholder="monthly">
+                  </div>
+                  <div class="form-group">
+                    <label>annual</label>
+                    <input type="number" class="form-control" name="item-annual" placeholder="annual">
+                  </div>
+                  <div class="form-group">
+                    <label >thumbnail</label>
+                    <input type="text" class="form-control" name="item-thumbnail" placeholder="thumbnail">
+                  </div>
+                  <div class="form-group">
+                    <label >stream</label>
+                    <input type="text" class="form-control" name="item-stream" placeholder="stream">
+                  </div>
+                  <div class="form-group">
+                    <label >alt text</label>
+                    <input type="text" class="form-control" name="item-alttext" placeholder="alt_text">
+                  </div>
+                  <button type="submit" class="btn btn-primary"> Add Item</button>
+                </div>
+                </form>
+                <% if(details!=null) { %>
+                    <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Category </th>
+                        <th>description</th>
+                        <th>monthly </th>
+                        <th>annual </th>
+                        <th>thumbnail</th>
+                        <th>alt_text</th>
+                        <th> Delete? </th>
+                    </tr>
+                    <% res.forEach(function(item){ %>
+                        <% if(item.role!='admin') { %>
+                        <tr>
+                            <td><%= item.name %></td>
+                            <td><%= item.category %></td>
+                            <td><%= item.description %></td>
+                            <td><%= item.price.monthly %></td>
+                            <td><%= item.price.annual%></td>
+                            <td><img src="<%= item.links.thumbnail%>" alt=""></td>
+                            <td><%= item.alt_text%></td>
+                            <td>
+                                <form action="/itemDelete/<%= item.name %>" method="POST">
+                                    <button type="submit">Delete</button>
+                                </form>
+                            </td>
+                        
+                        </tr>
+                        <% } %> 
+                    <% }) %>
+                    </table>
+                    <% } %>  
+                <%- include("footer") %>
+        </script>
+
+    </body>
+</html>

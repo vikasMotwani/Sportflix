@@ -1,0 +1,6 @@
+<% const n = data.length %>
+    <div class="row video">
+        <% data.forEach(items=>{ %>
+            <div class="col-3"><div> <%- include("card",{item:items})%> </div></div>
+    <% }) %>
+</div>
